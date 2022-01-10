@@ -1,0 +1,1 @@
+console.log("1. The layout is valid 10/10 \n2. Semantic layout 20/20 \n3. The layout corresponds to the 48/48 layout \n4. Requirements for css 12/12 \n5. Interactivity, implemented through css 20/20 \n\nDone 11.01.2022 / deadline 17.01.2022 \n\nThe work was completed in full with all its requirements. \n\nScore 100/100.");
