@@ -60,7 +60,7 @@ body, html {
     display: flex;
     align-items: center;
     padding: 0 20px;
-    background: url('/assets/img/bg.jpg');
+    background: url('assets/img/bg.jpg');
     background-repeat: no-repeat;
     background-position: center 0;
 }
@@ -145,7 +145,7 @@ h2.section-title-line:after {
 
 /* hero */
 #hero {
-    background-image: url(/assets/img/bg.jpg);
+    background-image: url(assets/img/bg.jpg);
     height: 820px;
     background-position: center -90px;
     background-repeat: no-repeat;
@@ -195,19 +195,19 @@ h2.section-title-line:after {
     width: 320px;
 }
 .skills-item:nth-child(1) {
-    background-image: url('/assets/svg/camera.svg');
+    background-image: url('assets/svg/camera.svg');
     background-size: 62px 50px;
 }
 .skills-item:nth-child(2) {
-    background-image: url('/assets/svg/video.svg');
+    background-image: url('assets/svg/video.svg');
     background-size: 60px 50px;
 }
 .skills-item:nth-child(3) {
-    background-image: url('/assets/svg/image.svg');
+    background-image: url('assets/svg/image.svg');
     background-size: 66px 50px;
 }
 .skills-item:nth-child(4) {
-    background-image: url('/assets/svg/mic.svg');
+    background-image: url('assets/svg/mic.svg');
     background-size: 32px 50px;
 }
 .skill-title {
@@ -328,7 +328,7 @@ h2.section-title-line:after {
 /* contacts */
 #contacts {
     margin-top: 100px;
-    background-image: url('/assets/img/contacts.jpg');
+    background-image: url('assets/img/contacts.jpg');
     display: flex;
     justify-content: flex-end;
 }
