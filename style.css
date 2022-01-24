@@ -8,7 +8,7 @@
 /* font -- */
 @font-face {
     font-family: Merriweather;
-    src: url("assets/fonts/merriweather/Merriweather-Bold.ttf");
+    src: url("assets/fonts/Merriweather/Merriweather-Bold.ttf");
 }
 @font-face {
     font-family: Inter-Regular;
@@ -501,7 +501,7 @@ h2.section-title-line:after {
         overflow: hidden;
     }
     .nav {
-        height: calc(100vh + 100px)
+        height: calc(100vh + 100px);
         overflow: scroll;
         position: absolute;
         top: 0;
