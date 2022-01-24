@@ -501,7 +501,7 @@ h2.section-title-line:after {
         overflow: hidden;
     }
     .nav {
-        height: calc(100vh + 100px)
+        height: calc(100vh + 100px);
         overflow: scroll;
         position: absolute;
         top: 0;
