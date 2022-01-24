@@ -501,12 +501,12 @@ h2.section-title-line:after {
         overflow: hidden;
     }
     .nav {
-        height: calc(100vh + 100px);
+        height: 100vh;
         overflow: scroll;
         position: absolute;
         top: 0;
         padding: 0;
-        padding-bottom: 30px;
+        padding-bottom: 130px;
         right: calc((-100% - -148px));
         z-index: 1;
         width: calc(100% - 148px);
