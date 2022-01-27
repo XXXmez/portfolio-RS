@@ -1,4 +1,4 @@
-import i18Obj from '/js/translate.js';
+import i18Obj from 'js/translate.js';
 // console.log(i18Obj);
 
 const arrSvg = [`<svg width="45" height="45" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
