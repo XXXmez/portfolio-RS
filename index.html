@@ -20,17 +20,30 @@
             </div>
             <nav class="nav"> 
                 <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#price">Price</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a data-i18n='skills' class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a data-i18n='portfolio' class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a data-i18n='video' class="nav-link" href="#video">Video</a></li>
+                    <li class="nav-item"><a data-i18n='price' class="nav-link" href="#price">Price</a></li>
+                    <li class="nav-item"><a data-i18n='contacts' class="nav-link" href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
             <div class="translate">
-                <div class="tran t-activ">en</div>
+                <div data-site-lang="en" class="selector-lang active">en</div>
                 <span>/</span>
-                <div class="tran">ru</div>
+                <div data-site-lang="ru" class="selector-lang">ru</div>
+            </div>
+            <div data-theme='day' class="theme-site">
+                <svg width="45" height="45" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.5 16.8821C23.6125 16.8821 24.7001 17.212 25.6251 17.8301C26.5501 18.4481 27.2711 19.3267 27.6968 20.3545C28.1226 21.3823 28.234 22.5133 28.0169 23.6045C27.7999 24.6956 27.2641 25.6979 26.4775 26.4846C25.6908 27.2712 24.6885 27.807 23.5974 28.024C22.5062 28.241 21.3752 28.1296 20.3474 27.7039C19.3196 27.2782 18.4411 26.5572 17.823 25.6322C17.2049 24.7071 16.875 23.6196 16.875 22.5071C16.8769 21.0158 17.4701 19.5861 18.5246 18.5317C19.5791 17.4772 21.0087 16.8839 22.5 16.8821ZM22.5 14.0696C20.8312 14.0696 19.1999 14.5644 17.8124 15.4916C16.4248 16.4187 15.3434 17.7364 14.7048 19.2782C14.0662 20.8199 13.8991 22.5164 14.2246 24.1532C14.5502 25.7899 15.3538 27.2933 16.5338 28.4733C17.7138 29.6533 19.2172 30.4569 20.8539 30.7825C22.4906 31.108 24.1871 30.9409 25.7289 30.3023C27.2706 29.6637 28.5884 28.5822 29.5155 27.1947C30.4427 25.8072 30.9375 24.1759 30.9375 22.5071C30.9375 20.2693 30.0486 18.1232 28.4662 16.5409C26.8839 14.9585 24.7378 14.0696 22.5 14.0696Z"/>
+                    <path d="M7.58521 9.58066L9.57364 7.59082L14.504 12.5211L12.5155 14.5096L7.58521 9.58066Z"/>
+                    <path d="M2.8125 21.1008H9.84375V23.9133H2.8125V21.1008Z"/>
+                    <path d="M7.58521 35.4332L12.5155 30.5029L14.504 32.4928L9.57364 37.4217L7.58521 35.4332Z"/>
+                    <path d="M21.0938 35.1633H23.9062V42.1946H21.0938V35.1633Z"/>
+                    <path d="M30.4973 32.4928L32.4858 30.5029L37.4161 35.4332L35.4276 37.4217L30.4973 32.4928Z"/>
+                    <path d="M35.1562 21.1008H42.1875V23.9133H35.1562V21.1008Z"/>
+                    <path d="M30.4973 12.5211L35.4276 7.59082L37.4161 9.58066L32.4858 14.5096L30.4973 12.5211Z"/>
+                    <path d="M21.0938 2.81958H23.9062V9.85083H21.0938V2.81958Z"/>
+                </svg>
             </div>
             <div class="burger">
                 <span></span>
@@ -43,51 +56,51 @@
         <div class="container">
             <section class="section" id="hero">
                 <div class="section-bg-info">
-                    <h1 class="hero-title">Alexa Rise</h1>
-                    <p class="hero-text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
-                    <button class="btn-hire-me">Hire me</button>
+                    <h1 data-i18n='hero-title' class="hero-title">Alexa Rise</h1>
+                    <p data-i18n='hero-text' class="hero-text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+                    <button data-i18n='hire' class="btn-hire-me">Hire me</button>
                 </div>
             </section>
             <section class="section" id="skills">
-                <h2 class="section-title section-title-line">Skills</h2>
+                <h2 data-i18n='skills' class="section-title section-title-line">Skills</h2>
                 <div class="skills-items">
                     <div class="skills-item">
-                        <h3 class="skill-title">Digital photography</h3>
-                        <p class="skill-text">High-quality photos in the studio and on the nature</p>
+                        <h3 data-i18n='skill-title-1' class="skill-title">Digital photography</h3>
+                        <p data-i18n='skill-text-1' class="skill-text">High-quality photos in the studio and on the nature</p>
                     </div>
                     <div class="skills-item">
-                        <h3 class="skill-title">Video shooting</h3>
-                        <p class="skill-text">Capture your moments so that they always stay with you</p>
+                        <h3 data-i18n='skill-title-2' class="skill-title">Video shooting</h3>
+                        <p data-i18n='skill-text-2' class="skill-text">Capture your moments so that they always stay with you</p>
                     </div>
                     <div class="skills-item">
-                        <h3 class="skill-title">Retouch</h3>
-                        <p class="skill-text">I strive to make photography surpass reality</p>
+                        <h3 data-i18n='skill-title-3' class="skill-title">Retouch</h3>
+                        <p data-i18n='skill-text-3' class="skill-text">I strive to make photography surpass reality</p>
                     </div>
                     <div class="skills-item">
-                        <h3 class="skill-title">Audio</h3>
-                        <p class="skill-text">Professional sounds recording for video, advertising, portfolio</p>
+                        <h3 data-i18n='skill-title-4' class="skill-title">Audio</h3>
+                        <p data-i18n='skill-text-4' class="skill-text">Professional sounds recording for video, advertising, portfolio</p>
                     </div>
                 </div>
             </section>
             <section class="section" id="portfolio">
-                <h2 class="section-title section-title-line">Portfolio</h2>
+                <h2 data-i18n='portfolio' class="section-title section-title-line">Portfolio</h2>
                 <div class="portfolio-btns">
-                    <button class="btn">Winter</button>
-                    <button class="btn">Spring</button>
-                    <button class="btn">Summer</button>
-                    <button class="btn btn-active">Autumn</button>
+                    <button data-i18n='winter' data-season="winter" class="btn portfolio-btn">Winter</button>
+                    <button data-i18n='spring' data-season="spring" class="btn portfolio-btn">Spring</button>
+                    <button data-i18n='summer' data-season="summer" class="btn portfolio-btn">Summer</button>
+                    <button data-i18n='autumn' data-season="autumn" class="btn portfolio-btn btn-active">Autumn</button>
                 </div>
                 <div class="portfolio-items">
-                    <img src="assets/img/portfolio-img1.jpg" alt="portfolio-img-1">
-                    <img src="assets/img/portfolio-img2.jpg" alt="portfolio-img-2">
-                    <img src="assets/img/portfolio-img3.jpg" alt="portfolio-img-3">
-                    <img src="assets/img/portfolio-img4.jpg" alt="portfolio-img-4">
-                    <img src="assets/img/portfolio-img5.jpg" alt="portfolio-img-5">
-                    <img src="assets/img/portfolio-img6.jpg" alt="portfolio-img-6">
+                    <img src="assets/img/autumn/1.jpg" alt="portfolio-img-1">
+                    <img src="assets/img/autumn/2.jpg" alt="portfolio-img-2">
+                    <img src="assets/img/autumn/3.jpg" alt="portfolio-img-3">
+                    <img src="assets/img/autumn/4.jpg" alt="portfolio-img-4">
+                    <img src="assets/img/autumn/5.jpg" alt="portfolio-img-5">
+                    <img src="assets/img/autumn/6.jpg" alt="portfolio-img-6">
                 </div>
             </section>
             <section class="section" id="video">
-                <h2 class="section-title section-title-line">Video</h2>
+                <h2 data-i18n='video' class="section-title section-title-line">Video</h2>
                 <div class="player">
                     <img src="assets/img/video-player.jpg" alt="video-player">
                     <button class="video-play">
@@ -98,53 +111,53 @@
                 </div>
             </section>
             <section class="section" id="price">
-                <h2 class="section-title section-title-line">Price</h2>
+                <h2 data-i18n='price' class="section-title section-title-line">Price</h2>
                 <div class="price-items">
                     <div class="price-item">
                         <h3 class="price-title">Standard</h3>
                         <div class="price">500 $</div>
                         <div class="price-description">
-                            <span>One location</span>
-                            <span>120 photos in color</span>
-                            <span>12 photos in retouch</span>
-                            <span>Readiness 2-3 weeks</span>
-                            <span>Make up, visage</span>
+                            <span data-i18n='price-description-1-span-1'>One location</span>
+                            <span data-i18n='price-description-1-span-2'>120 photos in color</span>
+                            <span data-i18n='price-description-1-span-3'>12 photos in retouch</span>
+                            <span data-i18n='price-description-1-span-4'>Readiness 2-3 weeks</span>
+                            <span data-i18n='price-description-1-span-5'>Make up, visage</span>
                         </div>
-                        <button class="btn-f price-btn">Order shooting</button>
+                        <button data-i18n='order' class="btn-f price-btn">Order shooting</button>
                     </div>
                     <div class="price-item">
                         <h3 class="price-title">Premium</h3>
                         <div class="price">700 $</div>
                         <div class="price-description">
-                            <span>One or two locations</span>
-                            <span>200 photos in color</span>
-                            <span>20 photos in retouch</span>
-                            <span>Readiness 1-2 weeks</span>
-                            <span>Make up, visage</span>
+                            <span data-i18n='price-description-2-span-1'>One or two locations</span>
+                            <span data-i18n='price-description-2-span-2'>200 photos in color</span>
+                            <span data-i18n='price-description-2-span-3'>20 photos in retouch</span>
+                            <span data-i18n='price-description-2-span-4'>Readiness 1-2 weeks</span>
+                            <span data-i18n='price-description-2-span-5'>Make up, visage</span>
                         </div>
-                        <button class="btn-f price-btn">Order shooting</button>
+                        <button data-i18n='order' class="btn-f price-btn">Order shooting</button>
                     </div>
                     <div class="price-item">
                         <h3 class="price-title">Gold</h3>
                         <div class="price">1000 $</div>
                         <div class="price-description">
-                            <span>Three locations or more</span>
-                            <span>300 photos in color</span>
-                            <span>50 photos in retouch</span>
-                            <span>Readiness 1 week</span>
-                            <span>Make up, visage, hairstyle</span>
+                            <span data-i18n='price-description-3-span-1'>Three locations or more</span>
+                            <span data-i18n='price-description-3-span-2'>300 photos in color</span>
+                            <span data-i18n='price-description-3-span-3'>50 photos in retouch</span>
+                            <span data-i18n='price-description-3-span-4'>Readiness 1 week</span>
+                            <span data-i18n='price-description-3-span-5'>Make up, visage, hairstyle</span>
                         </div>
-                        <button class="btn-f price-btn">Order shooting</button>
+                        <button data-i18n='order' class="btn-f price-btn">Order shooting</button>
                     </div>
                 </div>
             </section>
             <section class="section" id="contacts">
                 <div class="contacts-container">
-                    <h2 class="section-title">Contact me</h2>
+                    <h2 data-i18n='contact-me' class="section-title">Contact me</h2>
                     <input placeholder='E-mail' type="email" name="email" id="email">
                     <input placeholder='Phone' type="tel" name="tel" id="tel">
                     <textarea placeholder='Message' name="concacts-text" id="concacts-text" maxlength="115"></textarea>
-                    <button class="btn-f contacts-btn">Send message</button>
+                    <button data-i18n='send-message' class="btn-f contacts-btn">Send message</button>
                 </div>
             </section>
         </div>
@@ -188,6 +201,6 @@
         </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
 </body>
 </html>
