@@ -3,6 +3,10 @@
     --color-black: #000;
     --font1: 60px;
     --font2: 40px;
+    --background-color: #000000;
+    --title-color: #BDAE82;
+    --skills-text-color: #ffffff;
+    --portfolio-btn-color: #BDAE82;
 }
 
 /* font -- */
@@ -32,7 +36,7 @@ html {
 }
 body {
     font-family: 'Inter-Regular', sans-serif;
-    background-color: #000000;
+    background-color: var(--background-color);
     color: #FFFFFF;
     font-size: 20px;
     position: relative;
@@ -76,7 +80,7 @@ footer, header {
     background-color: transparent;
     cursor: pointer;
     font-family: inherit;
-    color: #BDAE82;
+    color: var(--portfolio-btn-color);
     line-height: 40px;
     font-size: 20px;
     width: 220px;
@@ -120,6 +124,7 @@ footer, header {
     align-items: center;
     padding: 0 20px;
     background: transparent;
+    color: #ffffff;
 }
 .header-container > * {
     padding: 20px 0;
@@ -150,26 +155,36 @@ footer, header {
 .nav-link:hover {
     color: #BDAE82;
 }
+
 .translate {
     display: flex;
     font-family: 'Inter-Bold', sans-serif;
     line-height: 50px;
 }
-.tran {
+.selector-lang {
     cursor: pointer;
+}.selector-lang.active {
+    color: #BDAE82;
 }
 .translate span {
     padding-left: 9px;
     padding-right: 8px;
 }
-.t-activ {
-    color: #BDAE82;
-}
+
 .burger {
     display: none;
 }
 .burger:hover span{
     background-color: #BDAE82;
+}
+
+.theme-site {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
 }
 /* -- header */
 
@@ -182,7 +197,7 @@ h2.section-title {
     position: relative;
     display: flex;
     align-items: center;
-    color: #BDAE82;
+    color: var(--title-color);
 }
 h2.section-title-line:before {
     content: '';
@@ -190,7 +205,7 @@ h2.section-title-line:before {
     display: block;
     width: 275px;
     height: 2px;
-    background-color: #BDAE82;
+    background-color: var(--title-color);
     left: -295px;
 }
 h2.section-title-line:after {
@@ -199,7 +214,7 @@ h2.section-title-line:after {
     display: block;
     width: 275px;
     height: 2px;
-    background-color: #BDAE82;
+    background-color: var(--title-color);
     right: -295px;
 }
 #portfolio h2.section-title-line:before {
@@ -217,6 +232,7 @@ h2.section-title-line:after {
     height: 910px;
     background-position: center;
     background-repeat: no-repeat;
+    color: #ffffff;
 }
 .section-bg-info {
     width: 580px;
@@ -248,6 +264,7 @@ h2.section-title-line:after {
     margin-top: 60px;
     width: 100%;
     padding: 0 20px;
+    color: var(--skills-text-color);
 }
 .skills-item {
     background-position: center top;
@@ -435,6 +452,7 @@ h2.section-title-line:after {
     align-items: center;
     padding: 50px 20px;
     line-height: 50px;
+    background-color: #000;
 }
 .footer-data {
     display: flex;
@@ -501,8 +519,8 @@ h2.section-title-line:after {
         overflow: hidden;
     }
     .nav {
-        height: 100vh;
-        overflow: scroll;
+        height: 101vh;
+        overflow: auto;
         position: absolute;
         top: 0;
         padding: 0;
